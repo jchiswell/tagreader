@@ -226,8 +226,8 @@ ota:
 i2c:
   scan: False
   frequency: 400kHz
-  sda_pin: D4
-  scl_pin: D3
+  sda: D4
+  scl: D3
 
 globals:
   - id: source
