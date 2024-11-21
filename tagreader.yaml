@@ -10,7 +10,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://adonno/tagreader/tagreader.yaml
+  package_import_url: github://jchiswell/tagreader/tagreader.yaml
 
 improv_serial:
 
@@ -226,6 +226,8 @@ ota:
 i2c:
   scan: False
   frequency: 400kHz
+  sda_pin: D4
+  scl_pin: D3
 
 globals:
   - id: source
