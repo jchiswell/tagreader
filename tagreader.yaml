@@ -31,7 +31,7 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: adonno.tag_reader
+    name: jchiwell.tag_reader
     version: "1.4"
 # If buzzer is enabled, notify on api connection success
   on_boot:
